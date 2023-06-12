@@ -1,0 +1,27 @@
+{
+    "name": "gohari/repository-pattern",
+    "description": "this package helps you for using repository pattern in laravel",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gohari\\RepoPattern\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "MohammadReza Gohari",
+            "email": "eng.mr.gohari@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gohari\\RepositoryPattern\\RepositoryPatternServiceProvider"
+            ]
+        }
+    }
+}
